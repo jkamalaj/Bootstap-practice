@@ -1,0 +1,189 @@
+
+.home ul:hover{
+  color: rgb(29, 201, 29) !important;
+  font-size: large;
+}
+.logo a{
+color: rgb(6, 154, 6);
+
+}
+.home ul li{
+    font-size: large;
+    position: relative;
+    margin-top: 30px;
+}
+
+.logo h2{
+    margin-top: 20px;
+}
+.home .sumbit{
+    border-radius: 20px;
+    font-size: large;
+    width: 130px;
+    height: 35px;
+    background-color: rgb(39, 186, 39);
+    color: white;
+    border: 0px;
+    margin-top: 25px;
+    
+}
+.home a{
+    color: rgb(32, 31, 31);
+}
+.about ul{
+    position: relative;
+    width: 190px;
+    top: 40px;
+    visibility: hidden;
+    padding: 10px;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .2s linear;
+
+}
+.about ul li{
+    margin-top: 10px;
+}
+.about:hover ul{
+    top: 35px;
+    visibility: visible;
+}
+.about:hover i{
+    transform: rotate(180deg)
+}
+
+/* .about .drop ul{
+    position: relative;
+    width: 185px;
+    visibility: hidden;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition:2s linear; 
+}
+.drop:hover ul{
+    top: 35px;
+    left: 40px;
+    visibility: visible;
+}
+.drop:hover i{
+    transform: rotate(270deg);
+} */
+
+.image{
+    position:relative;
+    background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 900;
+    color: white;
+}
+.image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.text{
+    position: relative;
+    color: white;
+    font-size: x-large;
+    right: 260px;
+}
+.text h1{
+    
+    font-size: 60px;
+}
+.text .button{
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    z-index: index;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 170px;
+    height: 45px;
+    font-size: large;
+}
+.text .button:hover{
+    background-color: rgb(31, 166, 31);
+    border-radius: 2px solid rgb(31, 166, 31) ;
+}
+.left{
+    padding-top: 20px;
+    font-size: large;
+    margin-top: 50px;
+    color: rgb(21, 21, 21);
+}
+.left p{
+    font-style: italic;
+}
+img{
+    margin-top: 50px;
+    width: 700px;
+    height: auto;
+}
+.list{
+    margin-top: 40px;
+    padding-top: 50px;
+    background-color: rgb(210, 213, 216);
+}
+.mentors{
+    padding-top: 40px;
+}
+.mentor{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(102, 194, 102);
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: large;
+    font-style: normal;
+    text-align: start;
+}
+.start{
+    width: 250px;
+    height: 310px;
+    margin-top: 20px;
+    border: 1px solid rgb(159, 158, 158);
+    text-align: center;
+    padding-top: 50px;
+}
+.end{
+    width: 250px;
+    height: 310px;
+    margin-top: 20px;
+    border: 1px solid rgb(159, 158, 158);
+    text-align: center;
+    padding-top: 50px;
+}
+.middle{
+    width: 250px;
+    height: 310px;
+    margin-top: 20px;
+    border: 1px solid rgb(159, 158, 158);
+    text-align: center;
+    padding-top: 50px;
+}
+.mentor button {
+    left: 30px;
+    color: white;
+    font-size: medium;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+}
+
+.mentors i{
+    font-size: xx-large;
+    color: rgb(114, 209, 114);
+}
